@@ -1,5 +1,5 @@
-from ContextFreeLanguage.state import State
-from ContextFreeLanguage.transition import Transition
+from .state import State
+from .transition import Transition
 from collections import defaultdict
 
 LAMBDA = "λ"
